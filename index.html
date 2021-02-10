@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Entregável 2 - Desenvolvimento WEB</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+
+
+<!--
+    Autor do site: Vinícius Orrutia
+-->
+
+<body>
+
+<script src="js/main.js" async></script>
+    
+    <h1>Entregável 2 - Desenvolvimento WEB</h1>
+    
+    <h2>Exercício 1</h2>
+    
+    <p>
+        1- Descreva um programa que calcule o resto da divisão
+        de dois números A e B (A>B) utilizando somente
+        subtrações. 
+    </p>
+
+    <br>
+
+    <p>Calcule o resto de uma divisão:</p>
+    
+    <br>
+        
+    <label for="n1">
+        Divisor: <input type="number" id="n1" name="n1">
+    </label>
+            
+    <label for="n2">
+        Dividendo: <input type="number" id="n2" name="n2">
+    </label>
+    
+    
+    <p>
+    O resto da divisão é: <span id="resultado"></span>
+    </p>
+    
+    <button onclick="calculaDiv()">Calcular</button>
+
+
+    <h2>Exercício 2</h2>
+
+    <p>
+        2- Entrar via teclado com a base e a altura de um retângulo, calcular e exibir sua
+        área. 
+    </p>
+
+    <label for="base">
+        Base: <input type="number" id="base" name="base">
+    </label>
+        
+    <label for="altura">
+        Altura: <input type="number" id="altura" name="altura">
+    </label>
+    
+    <p>
+        A área do retângulo é: <span id="resultadoRet"></span>
+    </p>
+        
+    <button onclick="areaRet()">Calcular</button>
+
+    <h2>Exercício 3</h2>
+
+    <p>
+        3- Calcular e exibir a média aritmética de quatro valores quaisquer que serão
+        digitados.
+    </p>
+
+    <br>
+
+    <p>Insira 4 valores para ser calculado a média aritmética:</p>
+
+    <label for="na1">
+        <input type="number" id="na1" name="na1">
+    </label>
+        
+    <label for="na2">
+        <input type="number" id="na2" name="na2">
+    </label>
+    
+    <label for="na3">
+        <input type="number" id="na3" name="na3">
+    </label>
+    
+    <label for="na4">
+        <input type="number" id="na4" name="na4">
+    </label>
+
+    <p>
+        A média aritmética desses valores é: <span id="resultadoArit"></span>
+    </p>
+
+    <button onclick="mediaArit()">Calcular</button>
+
+    <h2>Exercício 4</h2>
+
+    <p>
+        4- Calcular e exibir a tensão de um determinado circuito eletrônico a partir dos
+        valores da resistência e corrente elétrica que serão digitados. Utilize a lei de
+        Ohm.
+    </p>
+
+    <br>
+
+    <p>Digite a resistência e a corrente elétrica para calcular a tensão de um circuito eletrônico:</p>
+
+    <label for="resist">
+        Resistência: <input type="number" id="resist" name="resist">
+    </label>
+        
+    <label for="corrente">
+        Corrente: <input type="number" id="corrente" name="corrente">
+    </label>
+
+    <p>
+        A tensão do circuito é: <span id="resultadoTen"></span>
+    </p>
+
+    <button onclick="calculaTen()">Calcular</button>
+
+    <h2>Exercício 5</h2>
+
+    <p>
+        5- A partir dos valores da base e altura de um triângulo, calcular e exibir sua área.
+    </p>
+
+    <br>
+
+    <p>Insira o valor da base e da altura do triângulo para calcular sua área:</p>
+
+    <label for="basetri">
+        Base: <input type="number" id="basetri" name="basetri">
+    </label>
+        
+    <label for="alturatri">
+        Altura: <input type="number" id="alturatri" name="alturatri">
+    </label>
+
+    <p>
+        A área do triângulo é: <span id="resultadoTri"></span>
+    </p>
+        
+    <button onclick="areaTri()">Calcular</button>
+    
+    <br>
+
+
+    <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+
+<p>Gostaria de receber as nossas atualizacoes?</p>
+
+
+<input type ="radio" name ="opcao" id="sim" value="sim">
+<label for="opcao">Sim</label>
+
+
+<input type ="radio" name ="opcao" id="nao" value="nao">
+<label for="opcao">Não</label>
+
+</body>
